@@ -1,0 +1,161 @@
+
+/* pour que les parties derrieres les graphiques soient visibles*/
+body {
+
+    /*gradient pour plus de bauté*/
+    background: rgb(246,255,68);
+    background: linear-gradient(180deg, rgba(246,255,68,0) 0%, rgba(145,7,125,1) 0%, rgba(0,0,0,1) 100%);
+
+    margin: 0; /*pour retirer les balises blanches autour de la page*/
+    font-family: "Josefin Slab";
+
+}
+
+/*{
+
+    border:white solid;
+
+} */
+
+
+/*creer des lignes*/
+p{
+
+    display:inline-block;
+    word-wrap: break-word;
+    color:white;
+
+}
+
+/*classe pour le header au top de la page*/
+.header_class {
+    /*gradient pour plus de bauté*/
+    background: rgb(246,255,68);
+    background: linear-gradient(0deg, rgba(246,255,68,0) 0%, rgba(237,41,208,1) 0%, rgba(128,0,128,1) 100%); 
+    
+    position:sticky;
+    top:1px;
+
+    display: inline-block;
+    border-radius: 25px;
+    width:100%;
+    height:10%;
+
+}
+
+/*pour les buttons de header*/
+.header_button{
+
+    background-color: rgb(219, 17, 219);
+    border-radius: 25px;
+    display:inline;
+    height: 100%;
+    width: 10%;
+    padding:none;
+
+}
+/*un button  qui est invisible pour pousser le button a rester dans son coin*/
+.header_button_invisible{
+
+    border:none;
+    background-color: transparent;
+    width: 25%;
+
+}
+
+/*le texte sur le header*/
+.header_text{
+
+    background-color: transparent;
+    color:white;
+    font-size: 40px;
+    font-family:Arial Narrow Bold Italic;
+    border:none;
+
+}
+
+/* utiliséé pour une image dans le header */
+.button_image{
+
+    border-radius: 25px;
+    display:inline;
+    height: 80%;
+    width: 10%;
+    padding:none;
+
+}
+
+
+/*petite animation pour les buttons de jojo*/
+.pop_up{
+
+    display: inline-block;
+    margin:0.2%;
+    transition: transform 0.2s linear;
+    width: auto;
+
+}
+.pop_up:hover{
+
+    transform: scale(1.15);
+    animation-play-state: paused;
+
+}
+
+button{
+
+padding: 0;
+
+}
+
+/*une classe pour les images des jojos de chaque parties dans la premiere page*/
+.jojo_images_entry_page{
+
+    display: block;
+    background-color: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:5%;
+    margin-right:5%;
+    height: 90%;
+}
+
+/*space noir*/
+.space{
+
+display: inline-block;
+width: 15%;
+
+}
+
+/* le logo de jojo bizzare adventure */
+.title{
+
+    /*position:absolute;
+    left:28%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;*/
+    position:absolute;
+    top:45%;
+    left:25%;
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 100%);    
+    box-shadow: 0px 10px 13px -7px #000000, 1px 50px 18px 11px rgba(0,0,0,0.52);
+    border-top-left-radius: 50%;
+    border-top-right-radius:40% ;
+
+}
+
+
+/*--Fin de page...
+                      /^--^\     /^--^\     /^--^\
+                      \____/     \____/     \____/
+                     /      \   /      \   /      \
+FF                  |        | |        | |        |
+                     \__  __/   \__  __/   \__  __/
+|^|^|^|^|^|^|^|^|^|^|^|^\ \^|^|^|^/ /^|^|^|^|^\ \^|^|^|^|^|^|^|^|^|^|^|^|
+| | | | | | | | | | | | |\ \| | |/ /| | | | | | \ \ | | | | | | | | | | |
+########################/ /######\ \###########/ /#######################
+| | | | | | | | | | | | \/| | | | \/| | | | | |\/ | | | | | | | | | | | |
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|*/
