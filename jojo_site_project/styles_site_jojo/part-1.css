@@ -45,12 +45,22 @@
 
     }
 
-    /* le div pour l'image de jojo */
+    
+    /* une classe pour le div qui contient l'image du jojo de cette partie*/
+    .image_div{
+
+        display: inline-block;
+        height: auto;
+        width: 40%;
+
+    }
+
+    /*pour l'image de jojo */
     .image{
 
         display:inline-block;
         height:100%;  /*parametres pour l'image*/
-        width:30% ;
+        width:  auto ;
         
     }
 
@@ -62,8 +72,8 @@
         border: rgb(65, 19, 108) solid;
         border-top-left-radius:25px ;   /* simplement un div avec des decoration pour faire le tab pour le texte/video */
         border-top-right-radius: 25px;
-        width: 60%;
-        height: 150%;
+        width: 50%;
+        height:auto;
 
     }
 
@@ -71,8 +81,8 @@
     .soustab{
 
         background-color: rgb(61, 28, 107);
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
+        border-radius: 25px;
+        height: auto;
 
     }
 
@@ -80,5 +90,6 @@
 
         color: white;
         padding:3%;
+        font-size: large;
 
     }

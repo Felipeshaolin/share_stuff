@@ -3,7 +3,7 @@
 body {
 
     /*gradient pour plus de bauté*/
-    background: rgb(246,255,68);
+    background: black;
     background: linear-gradient(180deg, rgba(246,255,68,0) 0%, rgba(145,7,125,1) 0%, rgba(0,0,0,1) 100%);
 
     margin: 0; /*pour retirer les balises blanches autour de la page*/
